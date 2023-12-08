@@ -1,6 +1,6 @@
 //    
 function php_article() {
-    fetch('./src/txt/php_example.txt')
+    fetch('https://raw.githubusercontent.com/saepul-idn/dev-api/main/javascript/blog/jsfetch/txt/about_php.txt')
         .then(response => {
             if (!response.ok) {
                 throw new Error('Network response was not ok');
