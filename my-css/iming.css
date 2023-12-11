@@ -1,0 +1,142 @@
+/* import dulu font nta */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,500;1,400&family=Roboto+Condensed:wght@100;400;500&display=swap');
+/* font-family: 'Poppins', sans-serif;
+font-family: 'Roboto Condensed', sans-serif; */
+:root {
+    --primary : rgb(241, 84, 84);
+    --hck :rgb(189, 230, 76);
+    --secondary: rgb(92, 87, 87);
+    --sec: rgb(241, 234, 234);
+}
+/* body dkk */
+body {
+    /* background: linear-gradient(to right, #3D3D3D, #1C1C1C); */
+    background: whitesmoke;
+    margin: 0 auto;
+    font-family: 'Poppins', sans-serif;
+}
+.kotak {
+    margin: 0 auto;
+    max-width: 800px;
+    width: 100%;
+     left: 50;
+     right: 50;
+}
+.kotak1 {
+    margin: 0 auto;
+     max-width: 800px;
+    margin-top: 130px;
+    width: 100%;
+    left: 50;
+    right: 50;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.kotak2 {
+    margin: 0 auto;
+     max-width: 800px;
+    margin-top: 130px;
+    width: 100%;
+    left: 50;
+    right: 50;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* header */
+header {
+    /* background: linear-gradient(to right, #4D4D4D, #333333); */
+    background: whitesmoke;
+    
+    /* border-radius: 10px; */
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); */
+    display: flex;
+    position: fixed;
+    top: 0;
+    margin: 0 auto;
+    /* justify-content: center; */
+
+    max-width: 800px;
+    width: 100%;
+}
+.navlink {
+    
+    max-width: 800px;
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.navlink a {
+    text-decoration: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    color: var(--secondary);
+    font-size: small;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-right: 10PX;
+}
+.navlink a:hover {
+    color: var(--primary);
+}
+/* CSSI */
+.navlink .nama-header{
+    display: flex;
+    position: absolute;
+    left: 0;
+    margin-left: 5px;
+}
+.navlink .nama-header:hover{
+    color: var(--primary);
+}
+
+/* footer */
+footer{
+    text-align: center;
+}
+/* span */
+span {color: var(--primary);}
+
+/* space kiri & kanan */
+.kk{
+    margin-left: 10px;
+    margin-right: 3px;
+}
+/* img */
+img {
+    margin: 0 auto;
+    max-width: 800px;
+    width: 100%;
+    /* display: block; */
+    /*  */
+    background-color: aliceblue;
+}
+/* textarea */
+textarea {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    resize: none; /* Membuat textarea tidak dapat diubah ukurannya */
+    border: 1px solid #ccc;
+}
+/* section */
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: linear-gradient(to right, #666666, #4D4D4D);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* query 600px */
+@media only screen and (max-width: 600px) {
+    .navlink .nama-header{
+        display: flex;
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+  }
